@@ -1,12 +1,5 @@
 import React, { Component } from "react";
-import {
-  Card,
-  CardActions,
-  CardContent,
-  Typography,
-  Button,
-  CardMedia,
-} from "@material-ui/core";
+import { Card, CardContent, Typography, CardMedia } from "@material-ui/core";
 import classes from "./Details.module.css";
 import axios from "axios";
 

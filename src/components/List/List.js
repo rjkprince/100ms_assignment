@@ -92,7 +92,7 @@ export default class List extends Component {
     });
     const myList = this.state.mainList.filter(
       (item) =>
-        item.name.toLowerCase().indexOf(nameQuery) != -1 &&
+        item.name.toLowerCase().indexOf(nameQuery) !== -1 &&
         item.category.indexOf(this.state.category) !== -1
     );
     this.setState({
