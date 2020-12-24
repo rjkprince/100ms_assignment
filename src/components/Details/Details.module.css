@@ -1,0 +1,19 @@
+.Card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 14px;
+}
+.pos {
+  margin-bottom: 12px;
+}
+.Label {
+  color: #ccc;
+}
+.cover {
+  width: 400px;
+  height: 400px;
+}
