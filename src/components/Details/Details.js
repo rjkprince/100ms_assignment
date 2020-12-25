@@ -66,9 +66,10 @@ export default class Details extends Component {
                 <span className={classes.Label}>Appearance : </span>
                 {
                   <ul>
-                    {data.appearance.map((it, pos) => (
-                      <li key={pos}>Season {it}</li>
-                    ))}
+                    {data.appearance &&
+                      data.appearance.map((it, pos) => (
+                        <li key={pos}>Season {it}</li>
+                      ))}
                   </ul>
                 }
               </Typography>
